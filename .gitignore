@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+001paq  
+
+# Environment variables
+# .env*
+# .env.*
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
+# !.env.example
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
+
+# Internal/sensitive documents — not for interns or public
+SECURITY_AUDIT.md
+AUTH_SECURITY.md
+CTO_INSTRUCTIONS.md
+MIGRATION_PLAN.md
+notes.md
+audit_questions.md
+CHANGES.md
